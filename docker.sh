@@ -9,3 +9,6 @@ docker build -t hello_world .
 
 # Run container
 docker run -d -t --name hello hello_world
+
+# Exec into container
+sudo docker exec -it hello /bin/bash

@@ -67,7 +67,9 @@ perl perl/hello.pl
 echo "PHP"
 php php/hello.php
 
-# R
+# R -- Change output for this thing
+echo "R"
+Rscript r/hello.r
 
 # Bash
 echo "Bash"
