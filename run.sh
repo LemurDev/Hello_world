@@ -10,6 +10,10 @@ echo "Python"
 python3 python/hello.py
 echo "\n"
 # C
+echo "C"
+gcc c/hello.c -o c/hello_world.c
+./c/hello_world.c
+echo "\n"
 # C#
 # C++
 # Elixir
