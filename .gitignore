@@ -7,3 +7,6 @@ pascal/hello.o
 rust/hello
 kotlin/HelloKt.class
 kotlin/META-INF
+scala/Hello$.class
+scala/Hello.class
+java/Main.class

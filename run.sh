@@ -3,7 +3,7 @@
 # Install the needed things
 
 apt update && apt upgrade -y
-apt install python3 build-essential g++ mono-complete elixir dotnet-sdk-6.0 golang-go default-jdk nodejs kotlin lua5.3 fp-compiler perl php r-base ruby rustc scala -y
+apt install python3 build-essential g++ mono-complete elixir dotnet-sdk-6.0 golang-go default-jdk nodejs kotlin lua5.3 fp-compiler perl php r-base ruby rustc scala nasm -y
 
 # Python
 echo "Python"
@@ -36,10 +36,12 @@ dotnet fsi fsharp/hello.fsx
 echo "Golang"
 go run golang/hello.go
 
-# Java -- FIX
-#echo "Java"
-#javac java/Main.java
-#java java/Main
+# Java
+echo "Java"
+cd java
+javac Main.java
+java Main
+cd ..
 
 # Javascript
 echo "Javascript"
@@ -75,6 +77,7 @@ Rscript r/hello.r
 echo "Bash"
 ./bash/hello.sh
 
+# Ruby
 echo "Ruby"
 ruby ruby/hello.rb
 
@@ -84,4 +87,8 @@ ruby ruby/hello.rb
 #rust/hello
 
 # Scala
-
+echo "Scala"
+cd scala/
+scalac Hello.scala 
+scala Hello
+cd ..
