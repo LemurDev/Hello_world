@@ -18,27 +18,49 @@ c/hello_world.c
 echo "C#"
 mcs -out:csharp/hello.exe csharp/hello.cs
 mono csharp/hello.exe
+
 # C++
+echo "C++"
+c++ cpp/hello.cpp -o cpp/hi.cpp
+cpp/hi.cpp
+
 # Elixir
+echo "Elixir"
+elixir elixir/hello.exs
+
 # F#
+echo "F#"
+dotnet fsi fsharp/hello.fsx
+
 # Golang
 echo "Golang"
 go run golang/hello.go
 
 # Java
+#echo "Java"
+#javac java/Main.java
+#java java/Main
+
 # Javascript
+echo "Javascript"
+node js/hello.js
+
 # Kotlin
+
 # Lua
 echo "Lua"
 lua lua/hello.lua
 
 # Pascal
+
 # Perl
 echo "Perl"
 perl perl/hello.pl
 
 # PHP
+
 # R
+
 # Bash
 echo "Bash"
 ./bash/hello.sh
@@ -47,4 +69,6 @@ echo "Ruby"
 ruby ruby/hello.rb
 
 # Rust
+
 # Scala
+
