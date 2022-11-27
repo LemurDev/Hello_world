@@ -36,7 +36,7 @@ dotnet fsi fsharp/hello.fsx
 echo "Golang"
 go run golang/hello.go
 
-# Java
+# Java -- FIX
 #echo "Java"
 #javac java/Main.java
 #java java/Main
@@ -45,19 +45,27 @@ go run golang/hello.go
 echo "Javascript"
 node js/hello.js
 
-# Kotlin
+# Kotlin -- FIX
+#echo "Kotlin"
+#kotlinc kotlin/hello.kt
+#java kotlin/HelloKt
 
 # Lua
 echo "Lua"
 lua lua/hello.lua
 
 # Pascal
+echo "Pascal"
+pc pascal/hello.p > /dev/null 2>&1
+pascal/hello
 
 # Perl
 echo "Perl"
 perl perl/hello.pl
 
 # PHP
+echo "PHP"
+php php/hello.php
 
 # R
 
@@ -68,7 +76,10 @@ echo "Bash"
 echo "Ruby"
 ruby ruby/hello.rb
 
-# Rust
+# Rust -- FIX
+#echo "Rust"
+#rustc rust/hello.rs
+#rust/hello
 
 # Scala
 

@@ -2,3 +2,8 @@ LANGUAGES.md
 c/hello_world.c
 csharp/hello.exe
 cpp/hi.cpp
+pascal/hello
+pascal/hello.o
+rust/hello
+kotlin/HelloKt.class
+kotlin/META-INF
