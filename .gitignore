@@ -14,3 +14,6 @@ visual_basic/hello.exe
 haskell/hello.o
 haskell/hello.hi
 haskell/hello
+ada/hello
+ada/hello.ali
+ada/hello.o

@@ -3,7 +3,7 @@
 # Install the needed things
 
 apt update && apt upgrade -y
-apt install python3 build-essential g++ mono-complete elixir dotnet-sdk-6.0 golang-go default-jdk nodejs kotlin lua5.3 fp-compiler perl php r-base ruby rustc scala nasm groovy haskell-platform -y
+apt install python3 build-essential g++ mono-complete elixir dotnet-sdk-6.0 golang-go default-jdk nodejs kotlin lua5.3 fp-compiler perl php r-base ruby rustc scala nasm groovy haskell-platform gnat -y
 #wget https://github.com/PowerShell/PowerShell/releases/download/v7.3.0/powershell_7.3.0-1.deb_amd64.deb
 #dpkg -i powershell_7.3.0-1.deb_amd64.deb
 #rm powershell_7.3.0-1.deb_amd64.deb
@@ -137,4 +137,12 @@ printf "\n"
 echo "Haskell"
 ghc -o haskell/hello haskell/hello.hs > /dev/null 2>&1
 haskell/hello
+printf "\n"
+
+# ADA
+echo "ADA"
+cd ada/
+gnatmake -q hello.adb -o hello
+./hello
+cd ..
 printf "\n"
