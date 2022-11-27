@@ -3,7 +3,7 @@
 # Install the needed things
 
 apt update && apt upgrade -y
-apt install python3 build-essential g++ mono-complete elixir dotnet-sdk-6.0 golang-go default-jdk nodejs kotlin lua5.3 fp-compiler perl php r-base ruby rustc scala nasm groovy -y
+apt install python3 build-essential g++ mono-complete elixir dotnet-sdk-6.0 golang-go default-jdk nodejs kotlin lua5.3 fp-compiler perl php r-base ruby rustc scala nasm groovy haskell-platform -y
 #wget https://github.com/PowerShell/PowerShell/releases/download/v7.3.0/powershell_7.3.0-1.deb_amd64.deb
 #dpkg -i powershell_7.3.0-1.deb_amd64.deb
 #rm powershell_7.3.0-1.deb_amd64.deb
@@ -122,13 +122,19 @@ echo "Powershell"
 pwsh powershell/hello.pwsh
 printf "\n"
 
-# Visual Basic -- TODO - Remove some info
+# Visual Basic
 echo "Visual Basic"
-vbnc -nologo -quiet visual_basic/hello.vb 
+vbnc -nologo -quiet visual_basic/hello.vb > /dev/null 2>&1
 mono visual_basic/hello.exe
 printf "\n"
 
 # Groovy
 echo "Groovy"
 groovy groovy/hello.groovy
+printf "\n"
+
+# Haskell
+echo "Haskell"
+ghc -o haskell/hello haskell/hello.hs > /dev/null 2>&1
+haskell/hello
 printf "\n"

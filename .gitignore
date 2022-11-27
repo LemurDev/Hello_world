@@ -11,3 +11,6 @@ scala/Hello$.class
 scala/Hello.class
 java/Main.class
 visual_basic/hello.exe
+haskell/hello.o
+haskell/hello.hi
+haskell/hello
