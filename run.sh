@@ -4,6 +4,9 @@
 
 apt update && apt upgrade -y
 apt install python3 build-essential g++ mono-complete elixir dotnet-sdk-6.0 golang-go default-jdk nodejs kotlin lua5.3 fp-compiler perl php r-base ruby rustc scala nasm -y
+#wget https://github.com/PowerShell/PowerShell/releases/download/v7.3.0/powershell_7.3.0-1.deb_amd64.deb
+#dpkg -i powershell_7.3.0-1.deb_amd64.deb
+#rm powershell_7.3.0-1.deb_amd64.deb
 
 # Python
 echo "Python"
@@ -33,7 +36,7 @@ echo "Elixir"
 elixir elixir/hello.exs
 printf "\n"
 
-# F#
+# F# TODO - Remove info at startup
 echo "F#"
 dotnet fsi fsharp/hello.fsx
 printf "\n"
@@ -112,4 +115,15 @@ cd scala/
 scalac Hello.scala 
 scala Hello
 cd ..
+printf "\n"
+
+# Powershell
+echo "Powershell"
+pwsh powershell/hello.pwsh
+printf "\n"
+
+# Visual Basic -- TODO - Remove some info
+echo "Visual Basic"
+vbnc -nologo -quiet visual_basic/hello.vb 
+mono visual_basic/hello.exe
 printf "\n"
