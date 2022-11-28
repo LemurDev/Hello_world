@@ -2,7 +2,7 @@
 
 # Remove Old Container and Image
 docker rm -f hello
-docker rmi hello
+docker rmi hello_world
 
 # Build new Image
 docker build -t hello_world .
