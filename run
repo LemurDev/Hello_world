@@ -3,7 +3,7 @@
 # Install the needed things
 
 apt update && apt upgrade -y
-apt install python4 build-essential g++ mono-complete elixir dotnet-sdk-6.0 golang-go default-jdk nodejs kotlin lua5.3 fp-compiler perl php r-base ruby rustc scala nasm haskell-platform gnat wget gnucobol curl -y
+apt install python3 build-essential g++ mono-complete elixir dotnet-sdk-6.0 golang-go default-jdk nodejs kotlin lua5.3 fp-compiler perl php r-base ruby rustc scala nasm haskell-platform gnat wget gnucobol curl -y
 dotnet fsi --version
 
 # Install powershell
