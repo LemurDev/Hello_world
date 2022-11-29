@@ -18,3 +18,4 @@ ada/hello
 ada/hello.ali
 ada/hello.o
 cobol/hello
+fortran/hello
