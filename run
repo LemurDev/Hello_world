@@ -10,6 +10,7 @@ dotnet fsi --version
 wget https://github.com/PowerShell/PowerShell/releases/download/v7.3.0/powershell_7.3.0-1.deb_amd64.deb
 dpkg -i powershell_7.3.0-1.deb_amd64.deb
 rm powershell_7.3.0-1.deb_amd64.deb
+cd src/
 # Install groovy
 curl -s get.sdkman.io | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
@@ -44,7 +45,7 @@ echo "Elixir"
 elixir elixir/hello.exs
 printf "\n"
 
-# F# TODO - Remove info at startup
+# F#
 echo "F#"
 dotnet fsi fsharp/hello.fsx
 printf "\n"

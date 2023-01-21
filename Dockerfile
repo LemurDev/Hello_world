@@ -1,5 +1,5 @@
 FROM ubuntu:latest
 
-WORKDIR /hello_world
+WORKDIR /hello_world 
 
 COPY . . 

@@ -1,15 +1,32 @@
 # Hello World in Multiple Languages
 
-I got very bored one day and thought of doing this...
+I got very bored one day and thought of doing this project....
 
-# Languages(Total: ADD LATER)
+# Languages(Total: 26)
 
-- Example 1
-- Example 2
-- Etc
-
-# TODO:
-
-- Add more languages
-- Make sure Docker works
-- Finish up bash script
+- ADA
+- Bash
+- C
+- Cobol
+- C++
+- C#
+- Elixir
+- Fortran
+- F#
+- Golang
+- Groovy
+- Haskell
+- Java
+- Javascript
+- Kotlin
+- Lua
+- Pascal
+- Perl
+- PHP
+- Powershell
+- Python
+- R
+- Ruby
+- Rust
+- Scala
+- Visual Basic
