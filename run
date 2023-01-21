@@ -167,3 +167,10 @@ echo "Fortran"
 gfortran fortran/hello.f90 -o fortran/hello
 fortran/hello
 printf "\n"
+
+# Assembly
+echo "Assembly"
+nasm -f elf64 assembly/hello.asm
+ld -s -o assembly/hello assembly/hello.o
+assembly/hello
+printf "\n"

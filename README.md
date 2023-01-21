@@ -2,9 +2,10 @@
 
 I got very bored one day and thought of doing this project....
 
-# Languages(Total: 26)
+# Languages(Total: 27)
 
 - ADA
+- Assembly
 - Bash
 - C
 - Cobol
